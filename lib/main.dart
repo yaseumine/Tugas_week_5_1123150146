@@ -15,6 +15,17 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: "latihan container nih boss",
       debugShowCheckedModeBanner: false,
+      home: Halaman(),
     );
+  }
+}
+
+//page
+class Halaman extends StatelessWidget {
+  const Halaman({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const Placeholder();
   }
 }
