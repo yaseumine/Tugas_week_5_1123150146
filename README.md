@@ -14,3 +14,16 @@ buat mathod methode material appp
 dalam method build ganti cost place holder ketike mate .
 
 biar debug hilang saya pake debugshowcheckerbanner isinya false
+
+buat title di material app pake title
+
+bikin halaman dari apps di material app
+home: Halaman //didapat sebagai variabel
+
+nah biar nyambung ke pages saya buat halaman
+
+buat app bar dan background color
+
+buat actionn dengan icons
+
+didakam kontainer cenderung memenuhi halaman jika gaada child
