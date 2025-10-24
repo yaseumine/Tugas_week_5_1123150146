@@ -40,6 +40,8 @@ class Halaman extends StatelessWidget {
       ),
       body: Container(
         // child: Text("hai ini yasmin")
+        width: double.infinity,
+        height: 100,
         color: Colors.amber,
         alignment: Alignment.topCenter,
         child: Text("hai ini yasmin"),

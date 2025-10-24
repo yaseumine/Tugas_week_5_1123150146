@@ -27,3 +27,7 @@ buat app bar dan background color
 buat actionn dengan icons
 
 didakam kontainer cenderung memenuhi halaman jika gaada child
+
+aligment untuk text biar bisa pindah pindah atau buat posisi lah
+
+pake height dan widht biar ada ukurannya
