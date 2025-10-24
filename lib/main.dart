@@ -44,7 +44,10 @@ class Halaman extends StatelessWidget {
         height: 100,
         color: Colors.amber,
         alignment: Alignment.topCenter,
-        child: Text("hai ini yasmin"),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [Icon(Icons.developer_board), Text("ini adalah data")],
+        ),
       ),
     );
   }
