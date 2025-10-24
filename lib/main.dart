@@ -42,12 +42,22 @@ class Halaman extends StatelessWidget {
         // child: Text("hai ini yasmin")
         width: double.infinity,
         height: 100,
-        color: Colors.amber,
+        // color: Colors.amber,
         alignment: Alignment.topCenter,
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [Icon(Icons.developer_board), Text("ini adalah data")],
+        decoration: BoxDecoration(
+          color: Colors.blue,
+          borderRadius: BorderRadius.circular(20),
+          gradient: LinearGradient(
+            begin: Alignment.topCenter,
+            end: Alignment.bottomCenter,
+            colors: [Colors.red, Colors.yellow],
+          ),
         ),
+        // child: Row(
+        //   mainAxisAlignment: MainAxisAlignment.center,
+
+        // children: [Icon(Icons.developer_board), Text("ini adalah data")],
+        // ),
       ),
     );
   }

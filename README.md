@@ -31,3 +31,8 @@ didakam kontainer cenderung memenuhi halaman jika gaada child
 aligment untuk text biar bisa pindah pindah atau buat posisi lah
 
 pake height dan widht biar ada ukurannya
+
+buat children dalam kontainer
+
+jika ada decoration, warna didalam container itu dihapus
+maka anda akan membuat suatu color gradient dengan fungsi linear gradient
