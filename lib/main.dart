@@ -30,13 +30,18 @@ class Halaman extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.deepPurple,
         title: const Text("halaman depan"),
+        //ada tanda arrauy []
+        actions: [
+          Icon(Icons.person),
+          SizedBox(width: 10),
+          Icon(Icons.account_balance),
+          SizedBox(width: 10),
+        ],
       ),
-      actions: [
-        Icon(Icons.person),
-        SizedBox(width: 10),
-        Icon(Icons.account_balance),
-        SizedBox(width: 10),
-      ],
+      body: Container(
+        // child: Text("hai ini yasmin")
+        color: Colors.amber,
+      ),
     );
   }
 }
