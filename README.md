@@ -36,3 +36,8 @@ buat children dalam kontainer
 
 jika ada decoration, warna didalam container itu dihapus
 maka anda akan membuat suatu color gradient dengan fungsi linear gradient
+
+kasih margin biar ada space diluar kontainer
+from TLRB untuk antur left top right bottom
+
+kasih jarak di dalam kontainer pake padding

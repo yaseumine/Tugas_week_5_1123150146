@@ -40,19 +40,22 @@ class Halaman extends StatelessWidget {
       ),
       body: Container(
         // child: Text("hai ini yasmin")
-        width: double.infinity,
-        height: 100,
+        // width: double.infinity,
+        // height: double.infinity,
         // color: Colors.amber,
+        padding: EdgeInsets.all(20),
+        margin: EdgeInsets.fromLTRB(50, 50, 50, 50),
         alignment: Alignment.topCenter,
         decoration: BoxDecoration(
           color: Colors.blue,
           borderRadius: BorderRadius.circular(20),
           gradient: LinearGradient(
-            begin: Alignment.topCenter,
-            end: Alignment.bottomCenter,
+            begin: Alignment.topRight,
+            end: Alignment.bottomLeft,
             colors: [Colors.red, Colors.yellow],
           ),
         ),
+        child: Text("ini text yang dibuat yasmin di kontainer warn warna"),
         // child: Row(
         //   mainAxisAlignment: MainAxisAlignment.center,
 
