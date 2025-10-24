@@ -26,7 +26,18 @@ class Halaman extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(appBar: AppBar(backgroundColor: Colors.deepPurple));
+    return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.deepPurple,
+        title: const Text("halaman depan"),
+      ),
+      actions: [
+        Icon(Icons.person),
+        SizedBox(width: 10),
+        Icon(Icons.account_balance),
+        SizedBox(width: 10),
+      ],
+    );
   }
 }
 
